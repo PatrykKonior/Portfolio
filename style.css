@@ -2,11 +2,14 @@
 
 :root {
   --black: #171321;
-  --dkblue: #0d314b;
-  --plum: #4b0d49;
-  --hotmag: #ff17e4;
-  --magenta: #e310cb;
-  --aqua: #86fbfb;
+  --ligreen: #47594f;
+  --grey: #2a3340;
+  --bgrey: #373a40;
+  --ligrey: #a6a6a6;
+  --burgunda: #6c0026;
+  --strong_gold: #a6855d;
+  --gold: #d0b697;
+  --dgreen: #1d2621;
   --white: #f7f8fa;
   --font-size: 1.3rem;
   --mono: "Oxygen mono", monospace;
@@ -31,7 +34,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: var(--sans);
-  background-color: var(--black);
+  background-color: var(--grey);
   color: var(--white);
   font-size: var(--font-size);
 }
@@ -43,11 +46,11 @@ h3 {
 }
 
 a {
-  color: var(--magenta);
+  color: var(--strong_gold);
 }
 
 a:hover {
-  color: var(--hotmag);
+  color: var(--burgunda);
   text-decoration: none;
 }
 
@@ -58,20 +61,20 @@ img {
 /* background color divs */
 
 .section-plum {
-  background-color: var(--plum);
+  background-color: var(--ligrey);
 }
 
 .section-blue {
-  background-color: var(--dkblue);
+  background-color: var(--ligreen);
 }
 
 .gradient {
   background: linear-gradient(
     90deg,
-    rgba(255, 23, 228, 1) 0%,
-    rgba(134, 251, 251, 1) 100%
+    rgba(29, 38, 33) 0%,
+    rgba(116, 140, 127, 1) 100%
   );
-  height: 2px;
+  height: 4px;
 }
 
 /* intro styles */
@@ -97,7 +100,7 @@ img {
 .name span {
   font-family: var(--sans);
   font-size: 3.5rem;
-  color: var(--aqua);
+  color: var(--gold);
   display: block;
   font-weight: 300;
 }
@@ -150,12 +153,12 @@ nav li:first-child {
 
 nav [class*="fa-"] {
   font-size: 150%;
-  color: var(--aqua);
+  color: var(--gold);
 }
 
 nav h1 [class*="fa-"] {
   font-size: 100%;
-  color: var(--aqua);
+  color: var(--gold);
 }
 
 nav a {
@@ -166,11 +169,11 @@ nav a {
 
 nav a:hover,
 nav [class*="fa-"]:hover {
-  color: var(--magenta);
+  color: var(--strong_gold);
 }
 
 .button {
-  background-color: var(--magenta);
+  background-color: var(--strong_gold);
   color: white;
   padding: 0.5rem;
   border-radius: 5px;
@@ -180,7 +183,7 @@ nav [class*="fa-"]:hover {
 
 .button:hover {
   color: white;
-  background-color: var(--hotmag);
+  background-color: var(--burgunda);
 }
 
 /* projects section */
@@ -195,7 +198,7 @@ nav [class*="fa-"]:hover {
 }
 
 #projects h3 {
-  color: var(--aqua);
+  color: var(--gold);
 }
 
 #projects h4 {
@@ -227,8 +230,8 @@ nav [class*="fa-"]:hover {
 #projects img {
   margin: 2rem 0 4rem 0;
   padding: 1rem;
-  border-left: 1px solid var(--aqua);
-  border-top: 1px solid var(--aqua);
+  border-left: 1px solid var(--gold);
+  border-top: 1px solid var(--gold);
   border-radius: 25px;
 }
 
